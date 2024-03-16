@@ -3,13 +3,12 @@ import { useParams } from 'react-router-dom'
 import "./Restaurant.css";
 import {
     FacebookShareButton,
-    PinterestShareButton,
     WhatsappShareButton,
     TwitterShareButton,
     LinkedinShareButton,
     EmailShareButton
   } from "react-share";
-import { FaFacebook,FaLinkedin,FaPinterest,FaTwitter,FaWhatsapp } from "react-icons/fa";
+import { FaFacebook,FaLinkedin,FaTwitter,FaWhatsapp } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
 
 const Restaurant = ({info}) => {
@@ -34,9 +33,6 @@ const Restaurant = ({info}) => {
             <WhatsappShareButton url={image} >
                 <FaWhatsapp />
             </WhatsappShareButton>
-            <PinterestShareButton url={image}>
-                <FaPinterest/>
-            </PinterestShareButton>
             <TwitterShareButton url={image}>
                 <FaTwitter/>
             </TwitterShareButton>
