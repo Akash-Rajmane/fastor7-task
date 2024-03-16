@@ -1,0 +1,26 @@
+.header{
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    height: 60px;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    background-color: #fff;
+}
+
+.header h1{
+    font-size: 30px;
+    color: #403d3d;
+    margin-left: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+    .header h1{
+        font-size: 24px;
+        color: #403d3d;
+        margin-left: 30px;
+    }
+}

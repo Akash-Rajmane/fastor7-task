@@ -1,0 +1,43 @@
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    font-size: 30px;
+}
+
+.res-title{
+    color: #7a3314;
+}
+
+.res-img{
+    width: 50vw;
+    height: auto;
+}
+
+.res-text{
+    color: #363636;
+    font-size: 16px;
+}
+
+.relative-container {
+    position: relative;
+}
+
+.logo-img {
+    position: absolute;
+    top: 20px;
+    left: 62vw;
+    width: 60px; 
+    z-index: 10; 
+}
+
+@media only screen and (max-width: 480px) {
+    .logo-img {
+        position: absolute;
+        top: 10px;
+        left: 55vw;
+        width: 50px; 
+        z-index: 10; 
+    }   
+}
